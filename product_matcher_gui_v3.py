@@ -12,7 +12,7 @@ class ProductMatcherGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Сопоставление товаров")
-        self.root.geometry("600x420")
+        self.root.geometry("600x600")
         
         # Переменные для хранения путей к файлам
         self.site_file_path = tk.StringVar()
